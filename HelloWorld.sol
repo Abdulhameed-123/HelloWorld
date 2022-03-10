@@ -15,6 +15,6 @@ contract HelloWorld {
    }
    function retrieve () public view returns (string memory _message) {
     return message;
-}
+   }  
 
 }
