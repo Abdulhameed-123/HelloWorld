@@ -1,4 +1,4 @@
-//Spdx-Licence-identificer: MIT;
+//SPDX-License-Identifier: MIT;
 
 pragma solidity ^0.8.7;
 
@@ -10,11 +10,10 @@ contract HelloWorld {
        owner = msg.sender;
    }
 
-   function store (string memory _message) public {
+   function store (string memory) public {
        message = message;
    }
    function retrieve () public view returns (string memory _message) {
     return message;
    }  
-
 }
